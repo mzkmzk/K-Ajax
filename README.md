@@ -1,11 +1,11 @@
-# K-Logging
+# K-Aajax
 
 ![image](http://qiniu.404mzk.com/K-Logging_logo.png)
 
-[![Build Status](https://travis-ci.org/mzkmzk/K-Logging.png?style=flat)](https://travis-ci.org/mzkmzk/K-Logging)
-[![npm version](https://img.shields.io/npm/v/k-logging.svg?style=flat)](https://www.npmjs.com/package/k-logging)
-[![Downloads](https://img.shields.io/npm/dt/k-logging.svg?style=flat)](https://www.npmjs.com/package/k-logging)
-[![License](https://img.shields.io/npm/l/k-logging.svg?style=flat)](https://www.npmjs.com/package/k-logging)
+[![Build Status](https://travis-ci.org/mzkmzk/K-Aajax.png?style=flat)](https://travis-ci.org/mzkmzk/K-Aajax)
+[![npm version](https://img.shields.io/npm/v/k-ajax.svg?style=flat)](https://www.npmjs.com/package/k-ajax)
+[![Downloads](https://img.shields.io/npm/dt/k-ajax.svg?style=flat)](https://www.npmjs.com/package/k-ajax)
+[![License](https://img.shields.io/npm/l/k-ajax.svg?style=flat)](https://www.npmjs.com/package/k-ajax)
 
 Hope is the most useful you used js library of the log 
 
@@ -42,6 +42,6 @@ tips: The corresponding app_name and set consitent
 And it's just as easy with [npm](http://npmjs.com):
 
 ```sh
-npm i --save npm install k-logging 
+npm i --save npm install k-ajax 
 ```
 
