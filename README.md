@@ -1,16 +1,16 @@
 # K-Aajax
 
-![image](http://qiniu.404mzk.com/K-Logging_logo.png)
+![image](http://qiniu.404mzk.com/K-Ajax.png)
 
 [![Build Status](https://travis-ci.org/mzkmzk/K-Aajax.png?style=flat)](https://travis-ci.org/mzkmzk/K-Aajax)
 [![npm version](https://img.shields.io/npm/v/k-Aajax.svg?style=flat)](https://www.npmjs.com/package/k-Aajax)
 [![Downloads](https://img.shields.io/npm/dt/k-Aajax.svg?style=flat)](https://www.npmjs.com/package/k-Aajax)
 [![License](https://img.shields.io/npm/l/k-Aajax.svg?style=flat)](https://www.npmjs.com/package/k-Aajax)
 
-Hope is the most useful you used js library of the log 
+Hope is the most useful you used js library of the ajax 
 
-* **Configurable:** Can be configured to display your log 
-* **Website:** Can be real-time display of your log in other web page
+* **Small:** Size as small as possible
+* **Easy:** Api as simple as possible
 
 ## Examples
 
@@ -30,21 +30,15 @@ Hope is the most useful you used js library of the log
     k_ajax.useImg('http://qiniu.404mzk.com/example.json',{'hello': 'k'})
 ```
 
-The corresponding website page is <http://qiniu.404mzk.com/website.html?app_name=K-Logging>
-
-tips: The corresponding app_name and set consitent
-
-[see exaple.gif](http://qiniu.404mzk.com/k-logging_demo.gif)
-
 ## Installation
 
 ```html
-<script src="http://qiniu.404mzk.com/K-Logging_0.0.1.js"></script>
+<script src="http://qiniu.404mzk.com/K-Ajax_0.0.1.js"></script>
 ```
 
 And it's just as easy with [npm](http://npmjs.com):
 
 ```sh
-npm i --save npm install k-ajax 
+npm i --save npm install K-Ajax 
 ```
 
