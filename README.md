@@ -3,9 +3,9 @@
 ![image](http://qiniu.404mzk.com/K-Ajax.png)
 
 [![Build Status](https://travis-ci.org/mzkmzk/K-Ajax.png?style=flat)](https://travis-ci.org/mzkmzk/K-Ajax)
-[![npm version](https://img.shields.io/npm/v/K-Ajax.svg?style=flat)](https://www.npmjs.com/package/K-Ajax)
-[![Downloads](https://img.shields.io/npm/dt/K-Ajax.svg?style=flat)](https://www.npmjs.com/package/K-Ajax)
-[![License](https://img.shields.io/npm/l/K-Ajax.svg?style=flat)](https://www.npmjs.com/package/K-Ajax)
+[![npm version](https://img.shields.io/npm/v/K--Ajax.svg?style=flat)](https://www.npmjs.com/package/K--Ajax)
+[![Downloads](https://img.shields.io/npm/dt/K--Ajax.svg?style=flat)](https://www.npmjs.com/package/K--Ajax)
+[![License](https://img.shields.io/npm/l/K--Ajax.svg?style=flat)](https://www.npmjs.com/package/K--Ajax)
 
 Hope is the most useful you used js library of the ajax 
 
@@ -39,6 +39,6 @@ Hope is the most useful you used js library of the ajax
 And it's just as easy with [npm](http://npmjs.com):
 
 ```sh
-npm i --save npm install K-Ajax 
+npm i --save npm install K--Ajax 
 ```
 
