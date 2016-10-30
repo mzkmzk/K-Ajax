@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+<title>K-Ajax demo: Base</title>
+
+
+</head>
+<body >
+
+<h1>get</h1>
+
+<p id="get">loading<p>
+
+<h1>JSONP</h1>
+
+<p id="jsonp">loading<p>
+
+<h1>post</h1>
+
+<p id="post">loading<p>
+
+<h1>useImg</h1>
+
+<p id="get">see to network<p>
+
+
+
+<script type="text/javascript" src="../../Public/index.bundle.js"></script>
+<script type="text/javascript">
+   
+    //k_ajax.getJSON('fuck',{},function(){},function(){console.log('error')})
+    k_ajax.getJSON('http://qiniu.404mzk.com/example.json',{},function(result){
+        document.getElementById('get').innerHTML = result
+    })
+    k_ajax.getJSONP('http://inner.journey.404mzk.com/jsonp_demo',{},function(result){
+        document.getElementById('jsonp').innerHTML = JSON.stringify(result)
+    })
+
+    k_ajax.post('http://qiniu.404mzk.com/example.json',{},function(result){
+         document.getElementById('post').innerHTML = result
+    })
+    k_ajax.useImg('http://qiniu.404mzk.com/example.json',{'hello': 'k'})
+    
+</script>
+</body>
+</html>
