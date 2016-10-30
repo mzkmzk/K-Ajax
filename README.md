@@ -1,11 +1,11 @@
-# K-Aajax
+# K-Ajax
 
 ![image](http://qiniu.404mzk.com/K-Ajax.png)
 
-[![Build Status](https://travis-ci.org/mzkmzk/K-Aajax.png?style=flat)](https://travis-ci.org/mzkmzk/K-Ajax)
-[![npm version](https://img.shields.io/npm/v/k-Aajax.svg?style=flat)](https://www.npmjs.com/package/k-Aajax)
-[![Downloads](https://img.shields.io/npm/dt/k-Aajax.svg?style=flat)](https://www.npmjs.com/package/k-Aajax)
-[![License](https://img.shields.io/npm/l/k-Aajax.svg?style=flat)](https://www.npmjs.com/package/k-Aajax)
+[![Build Status](https://travis-ci.org/mzkmzk/K-Ajax.png?style=flat)](https://travis-ci.org/mzkmzk/K-Ajax)
+[![npm version](https://img.shields.io/npm/v/K-Ajax.svg?style=flat)](https://www.npmjs.com/package/K-Ajax)
+[![Downloads](https://img.shields.io/npm/dt/K-Ajax.svg?style=flat)](https://www.npmjs.com/package/K-Aajax)
+[![License](https://img.shields.io/npm/l/K-Ajax.svg?style=flat)](https://www.npmjs.com/package/K-Ajax)
 
 Hope is the most useful you used js library of the ajax 
 
