@@ -1,8 +1,8 @@
 {
-  "name": "K--Ajax",
-  "version": "0.0.1",
+  "name": "k_ajax",
+  "version": "0.1.1",
   "description": "K-Ajax",
-  "main": "Public/index.bundle.js",
+  "main": "Public/index.js",
   "scripts": {
     "publish-mac": "export NODE_ENV=prod&&webpack  --progress --colors",
     "publish-win": "set NODE_ENV=prod&&webpack  --progress --colors"

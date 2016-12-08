@@ -40,8 +40,13 @@ import Utils from './Utils'
          let request = this._setRequest(url,callback,errorCallback)
         
         request.open('POST',url, async)
+        request.setRequestHeader('Content-Type','application/x-www-form-urlencoded; charset=UTF-8')
+
+        if (typeof data !== 'string'){ //当如果传输过来是一个JSON字符串,开发者可能是想把它放在请求包里而已,所以就不要做转义
+            data = Utils.encodeFormData(data)
+        }
         //request.setRequestHeader('Content-Type','application/json') CORS不允许设置头
-        request.send(Utils.encodeFormData(data))
+        request.send(data)
     }
 
     useImg(url, data, callback, errorCallback, async = true) {
@@ -59,7 +64,7 @@ import Utils from './Utils'
         request.onreadystatechange = function(){
             
             if (request.readyState === 4 ) {
-                if (request.status ===200) {
+                if ((request.status >= 200 && request < 300 ) || request.status === 304) {
                     callback && callback(JSON.parse(JSON.stringify(request.responseText)))
                 }else {
                     errorCallback && errorCallback()
